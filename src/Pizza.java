@@ -2,10 +2,10 @@ public class Pizza {
     private int price;
     private boolean isVeg;
 
-    private int extraCheesePrice = 100;
-    private int extraToppingsPrice = 150;
-    private int takeAwayBagPrice = 20;
-    private int basePizzaPrice;
+    private final int extraCheesePrice = 100;
+    private final int extraToppingsPrice = 150;
+    private final int takeAwayBagPrice = 20;
+    private final int basePizzaPrice;
     private boolean isExtraCheeseAdded = false;
     private boolean isExtraToppingsAdded = false;
     private boolean isOrderOptedForTakeAway = false;
